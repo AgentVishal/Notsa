@@ -1,4 +1,6 @@
-
+body {
+	font-family: Nunito;
+}
 .main-head {
 	text-align: center;
 	font-family: Nunito;
@@ -52,4 +54,27 @@
 	text-align: center;
 	padding: 10px;
 
+}
+
+
+.main-des {
+	padding-top: 6em;
+}
+
+#des1 {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 30px;
+	color: #4F4F4F;
+}
+
+#des2 {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 24px;
+	color: #313131;
 }
