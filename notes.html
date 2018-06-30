@@ -27,10 +27,13 @@
 
       <div class="alert alert-primary text-center" role="alert" >
         Welcome to Notsa V1.1. Start writing the text below.
+        <button onclick="document.getElementsByClassName('post')[0].innerHTML='';">clear</button>
       </div>
 
-      <div id="heading" contenteditable="true"></div>
-      <div id="content" contenteditable="true"></div>
+      <p>Title</p>
+      <div id="heading" class="post" contenteditable="true"></div>
+      <p>Summary or Description</p>
+      <div id="content" class="post" contenteditable="true"></div>
 
 
 

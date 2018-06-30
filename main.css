@@ -84,14 +84,24 @@ body {
 	font-family: Nunito;
 	font-size: 40px;
 	font-weight: 700;
-	padding: 20px 0px 20px 0px;
+	border-style: dotted;
+    border-color: coral;
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 #content {
 	font-family: Nunito;
 	font-size: 20px;
 	padding: 10px 0px 20px 0px;
+	border-style: solid;
+    border-color: bisque;
+    padding-left: 10px;
 }
+
+
+
+
 /*------Notes.html css----------------------------------------------**/
 
 
