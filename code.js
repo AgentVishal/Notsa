@@ -1,4 +1,4 @@
-  document.getElementById('heading').innerHTML = localStorage['title'] || 'Your title...'; // default text
+  document.getElementById('heading').innerHTML = localStorage['title'] || 
   document.getElementById('content').innerHTML = localStorage['text'] || 'Your text here...'; // default text
 
   setInterval(function() { // fuction that is saving the innerHTML of the div
@@ -7,8 +7,13 @@
   }, 1000);
 
 
-function ClearFields() {
 
-     document.getElementById("#heading").value = "";
-     document.getElementById("#content").value = "";
-}
+for( var elms=document.getElementsByClassName('post'), L=elms.length
+   ; L--
+   ; elms[L].innerHTML=elms[L].getAttribute('placeholder')
+   );
+
+for( var elms=document.getElementsByClassName('post2'), L=elms.length
+   ; L--
+   ; elms[L].innerHTML=elms[L].getAttribute('placeholder')
+   );

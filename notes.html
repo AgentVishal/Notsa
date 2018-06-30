@@ -27,13 +27,13 @@
 
       <div class="alert alert-primary text-center" role="alert" >
         Welcome to Notsa V1.1. Start writing the text below.
-        <button onclick="document.getElementsByClassName('post')[0].innerHTML='';">clear</button>
+        <button class="btn-warning" onclick="document.getElementsByClassName('post')[0].innerHTML='';">Clear Title...</button>
+        <button class="btn-warning" onclick="document.getElementsByClassName('post2')[0].innerHTML='';">Clear Summary...</button>
       </div>
 
-      <p>Title</p>
-      <div id="heading" class="post" contenteditable="true"></div>
-      <p>Summary or Description</p>
-      <div id="content" class="post" contenteditable="true"></div>
+      
+      <div id="heading" class="post" contenteditable="true" placeholder="Your Title...."></div>
+      <div id="content" class="post2" contenteditable="true" placeholder="Add Summary or anything you like :)"></div>
 
 
 
